@@ -14,7 +14,7 @@
             "customWebpackConfig": {
               "path": "./webpack-extra.config.js"
             },
-            "outputPath": "dist",
+            "outputPath": "Prod/ui",
             "index": "src/sampleapp.html",
             "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",

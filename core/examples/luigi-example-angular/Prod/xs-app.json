@@ -1,0 +1,18 @@
+{
+  "authenticationMethod": "route",
+  "routes": [
+    {
+      "source": "^/project(.*)",
+      "target": "index.html",
+      "localDir": "ui",
+      "authenticationType": "xsuaa",
+      "csrfProtection": false
+    },
+    {
+      "source": "^/(.*)",
+      "localDir": "ui",
+      "authenticationType": "xsuaa",
+      "csrfProtection": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+	"xsappname": "streamlinecockpitxsuaa",
+	"appName": "projectsaasreg",
+	"description": "Integrate multiple automation tools.",
+	"displayName": "Integrate automation tools",
+	"category": "Integration",
+	"appUrls": {
+		"onSubscription": "https://ipa-od--iframe-poc-appcockpit.cfapps.sap.hana.ondemand.com/callback/v1.0/tenants/{tenantId}"
+	},
+	"providerTenantId": "ipa-od--iframe-poc"
+}

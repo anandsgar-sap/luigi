@@ -1,0 +1,8 @@
+{
+    "uaa": {
+      "url" : "https://ipa-od--iframe-poc.authentication.sap.hana.ondemand.com",
+      "clientid" : "sb-streamlinecockpitxsuaa!t20803",
+      "clientsecret" : "FWjtemhu+pny3hu1JYGd2nug/Zc=",
+      "xsappname" : "xsuaa-physio!t14317"
+    }
+  }

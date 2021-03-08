@@ -1,0 +1,18 @@
+---
+applications:
+- name: appcockpit
+  memory: 256MB
+  instances: 1
+  buildpack: nodejs_buildpack
+  host: ipa-od--iframe-poc-appcockpit
+  services:
+    - streamlinecockpit-xsuaa
+    - streamlinecockpitreg
+  env:
+      OPTIMIZE_MEMORY: true
+      SEND_XFRAMEOPTIONS: false
+      TENANT_HOST_PATTERN: ^(.*)-appcockpit.cfapps.sap.hana.ondemand.com
+      SAP_JWT_TRUST_ACL: >
+        [
+          {"clientid":"*","identityzone":"*"}
+        ]
